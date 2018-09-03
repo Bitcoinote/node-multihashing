@@ -7,6 +7,7 @@ node-multi-hashing
 
 Cryptocurrency hashing functions for node.js.
 
+Modified version for BitcoiNote (www.bitcoinote.org)
 
 Algorithms
 ----------
@@ -27,6 +28,7 @@ Algorithms
 * hefty1
 * shavite3
 * cryptonight
+* cryptonight_lite_v7
 * boolberry
 
 Usage
@@ -35,7 +37,7 @@ Usage
 Install
 
 ```bash
-npm install multi-hashing
+npm install git+https://github.com/Bitcoinote/node-multi-hashing.git
 ```
 
 So far this native Node.js addon can do the following hashing algos
